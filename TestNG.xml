@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DockerSelenium" thread-count="2" parallel="tests">
+	<test name="GoogleHomePageTesting">
+		<parameter name="browser" value="firefox" />
+		<parameter name="keyword" value="selenium" />
+		<parameter name="Value" value="testing" />
+		<classes>		  
+			<class name="com.docker.testCases.TC_GoogleHomeTest" />
+		</classes>
+	</test>
+	<test name="GoogleSearchPageTesting">
+		<parameter name="browser" value="chrome" />
+		<parameter name="keyword" value="docker" />
+		<parameter name="Value" value="login" />
+		<classes>		   
+			<class name="com.docker.testCases.TC_GoogleSearchTest" />
+		</classes>
+	</test>
+</suite> 

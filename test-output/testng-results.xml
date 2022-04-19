@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DockerSelenium" duration-ms="14597" started-at="2022-04-19T17:21:39Z" finished-at="2022-04-19T17:21:54Z">
+    <groups>
+    </groups>
+    <test name="GoogleSearchPageTesting" duration-ms="8802" started-at="2022-04-19T17:21:39Z" finished-at="2022-04-19T17:21:48Z">
+      <class name="com.docker.testCases.TC_GoogleSearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleSearchTest@5442a311]" name="setUp" is-config="true" duration-ms="3718" started-at="2022-04-19T22:51:39Z" finished-at="2022-04-19T22:51:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleSearchTest@5442a311]" name="searchTest" duration-ms="4403" started-at="2022-04-19T22:51:43Z" finished-at="2022-04-19T22:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.TC_GoogleSearchTest@5442a311]" name="tearDown" is-config="true" duration-ms="657" started-at="2022-04-19T22:51:47Z" finished-at="2022-04-19T22:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.docker.testCases.TC_GoogleSearchTest -->
+    </test> <!-- GoogleSearchPageTesting -->
+    <test name="GoogleHomePageTesting" duration-ms="14597" started-at="2022-04-19T17:21:39Z" finished-at="2022-04-19T17:21:54Z">
+      <class name="com.docker.testCases.TC_GoogleHomeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleHomeTest@68c4039c]" name="setUp" is-config="true" duration-ms="10273" started-at="2022-04-19T22:51:39Z" finished-at="2022-04-19T22:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homeTest(java.lang.String, java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleHomeTest@68c4039c]" name="homeTest" duration-ms="3469" started-at="2022-04-19T22:51:50Z" finished-at="2022-04-19T22:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.TC_GoogleHomeTest@68c4039c]" name="tearDown" is-config="true" duration-ms="852" started-at="2022-04-19T22:51:53Z" finished-at="2022-04-19T22:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.docker.testCases.TC_GoogleHomeTest -->
+    </test> <!-- GoogleHomePageTesting -->
+  </suite> <!-- DockerSelenium -->
+</testng-results>

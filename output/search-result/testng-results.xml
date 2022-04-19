@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DockerSelenium" duration-ms="25455" started-at="2022-04-19T17:32:39Z" finished-at="2022-04-19T17:33:05Z">
+    <groups>
+    </groups>
+    <test name="GoogleSearchPageTesting" duration-ms="23078" started-at="2022-04-19T17:32:39Z" finished-at="2022-04-19T17:33:03Z">
+      <class name="com.docker.testCases.TC_GoogleSearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleSearchTest@35bbe5e8]" name="setUp" is-config="true" duration-ms="9780" started-at="2022-04-19T17:32:39Z" finished-at="2022-04-19T17:32:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleSearchTest@35bbe5e8]" name="searchTest" duration-ms="12888" started-at="2022-04-19T17:32:49Z" finished-at="2022-04-19T17:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.TC_GoogleSearchTest@35bbe5e8]" name="tearDown" is-config="true" duration-ms="400" started-at="2022-04-19T17:33:02Z" finished-at="2022-04-19T17:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.docker.testCases.TC_GoogleSearchTest -->
+    </test> <!-- GoogleSearchPageTesting -->
+    <test name="GoogleHomePageTesting" duration-ms="25455" started-at="2022-04-19T17:32:39Z" finished-at="2022-04-19T17:33:05Z">
+      <class name="com.docker.testCases.TC_GoogleHomeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleHomeTest@4ec6a292]" name="setUp" is-config="true" duration-ms="21335" started-at="2022-04-19T17:32:39Z" finished-at="2022-04-19T17:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homeTest(java.lang.String, java.lang.String)[pri:0, instance:com.docker.testCases.TC_GoogleHomeTest@4ec6a292]" name="homeTest" duration-ms="3358" started-at="2022-04-19T17:33:01Z" finished-at="2022-04-19T17:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.TC_GoogleHomeTest@4ec6a292]" name="tearDown" is-config="true" duration-ms="760" started-at="2022-04-19T17:33:04Z" finished-at="2022-04-19T17:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.docker.testCases.TC_GoogleHomeTest -->
+    </test> <!-- GoogleHomePageTesting -->
+  </suite> <!-- DockerSelenium -->
+</testng-results>
